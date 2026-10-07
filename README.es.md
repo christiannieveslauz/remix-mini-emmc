@@ -4,7 +4,7 @@
 
 *[Read in English](README.md)*
 
-El **Jide Remix Mini** ([campaña original en Kickstarter](https://www.kickstarter.com/projects/jidetech/remix-mini-the-worlds-first-true-android-pc/faqs)) (modelo RM1G, Allwinner H64/A64, 1–2 GB de RAM, eMMC de 8/16 GB) fue un mini PC con Android de 2015 que terminó como chatarra electrónica: su chip tiene quemado el fusible de *secure boot* y rechaza los bootloaders estándar. Desde 2025 se puede arrancar Armbian desde una microSD con un bootloader comunitario, pero la eMMC interna se daba por inutilizable.
+El **Jide Remix Mini** ([campaña original en Kickstarter](https://www.kickstarter.com/projects/jidetech/remix-mini-the-worlds-first-true-android-pc/faqs); modelo RM1G, Allwinner H64/A64, 1–2 GB de RAM, eMMC de 8/16 GB) fue un mini PC con Android de 2015 que terminó como chatarra electrónica: su chip tiene quemado el fusible de *secure boot* y rechaza los bootloaders estándar. Desde 2025 se puede arrancar Armbian desde una microSD con un bootloader comunitario, pero la eMMC interna se daba por inutilizable.
 
 Este repositorio da el último paso: **un U-Boot firmado TOC0, compilado desde las fuentes oficiales, que arranca desde la eMMC**, y un script que pasa un Armbian en funcionamiento de la microSD a la eMMC. Resultado: un equipo ARM64 con Debian, sin ventilador y sin tarjeta.
 
